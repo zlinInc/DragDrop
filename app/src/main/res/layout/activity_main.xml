@@ -105,7 +105,7 @@
             android:background="@drawable/bg_copy"
             android:gravity="center"
             android:padding="5dp"
-            android:text="体育赛事SPORT"
+            android:text="SSSSSS"
             android:textColor="#fff"
             android:textSize="14sp" />
 
@@ -120,7 +120,7 @@
             android:background="@drawable/bg_copy"
             android:gravity="center"
             android:padding="5dp"
-            android:text="电子竞技E-SPORT"
+            android:text="EEEEEEE"
             android:textColor="#fff"
             android:textSize="14sp" />
 
@@ -135,7 +135,7 @@
             android:background="@drawable/bg_copy"
             android:gravity="center"
             android:padding="5dp"
-            android:text="真人娱乐LIVE"
+            android:text="RRRRRRR"
 
             android:textColor="#fff"
             android:textSize="14sp" />
@@ -151,7 +151,7 @@
             android:background="@drawable/bg_copy"
             android:gravity="center"
             android:padding="5dp"
-            android:text="彩票投注LOTTERY"
+            android:text="TTTTTTTT"
             android:textColor="#fff"
             android:textSize="14sp" />
 
@@ -166,7 +166,7 @@
             android:background="@drawable/bg_copy"
             android:gravity="center"
             android:padding="5dp"
-            android:text="电子游艺CANSIO"
+            android:text="00000"
             android:textColor="#fff"
             android:textSize="14sp" />
 

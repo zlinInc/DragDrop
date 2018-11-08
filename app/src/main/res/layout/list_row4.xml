@@ -4,6 +4,7 @@
     android:id="@+id/frame_layout_item"
     android:layout_width="100dp"
     android:layout_height="100dp"
+    android:layout_margin="10dp"
     android:background="@drawable/bg_copy">
 
     <ImageView

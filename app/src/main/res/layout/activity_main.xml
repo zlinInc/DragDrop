@@ -3,64 +3,191 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_alignParentTop="true"
-    android:orientation="vertical"
-    android:gravity="center_horizontal">
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
 
     <TextView
+        android:id="@+id/top_image"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
+        android:layout_margin="8dp"
+        android:background="#555"
         android:gravity="center"
-        android:textSize="25sp"
-        android:paddingTop="20dp"
-        android:paddingBottom="10dp"
-        android:text="Top RecyclerView" />
+        android:text="banner图片"
+        android:textColor="#ccc"
+        android:textSize="16sp" />
+
+    <View
+        android:id="@+id/mDivide"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#333" />
 
     <TextView
         android:id="@+id/tvEmptyListTop"
         android:layout_width="match_parent"
         android:layout_height="110dp"
-        android:background="#cccccc"
+        android:background="#FFF"
         android:gravity="center"
         android:textSize="20sp"
-        android:text="Top List is Empty!"
         android:visibility="gone" />
+    <!--<LinearLayout-->
+    <!--android:id="@+id/tvEmptyListTop"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="150dp"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:padding="5dp"-->
+    <!--android:visibility="gone">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_bg1"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_marginRight="5dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@drawable/bg_copy"-->
+    <!--android:gravity="center"-->
+    <!--android:text="拖拽封面图至此加入最爱"-->
+    <!--android:textSize="20sp" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_bg2"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_marginRight="5dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@drawable/bg_copy"-->
+    <!--android:gravity="center"-->
+    <!--android:text="拖拽封面图至此加入最爱"-->
+    <!--android:textSize="20sp" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_bg3"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@drawable/bg_copy"-->
+    <!--android:gravity="center"-->
+    <!--android:text="拖拽封面图至此加入最爱"-->
+    <!--android:textSize="20sp" />-->
+    <!--</LinearLayout>-->
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rvTop"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="@dimen/activity_horizontal_margin"
-        android:paddingBottom="@dimen/activity_horizontal_margin"/>
+        android:layout_height="140dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#cccccc"/>
+        android:background="#cccccc" />
 
-    <TextView
+    <LinearLayout
+        android:id="@+id/ll_sports_line"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
+        android:background="#000"
         android:gravity="center"
-        android:textSize="25sp"
-        android:paddingTop="20dp"
-        android:paddingBottom="10dp"
-        android:text="Bottom RecyclerView" />
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_copy"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="体育赛事SPORT"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_centerVertical="true"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_copy"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="电子竞技E-SPORT"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_centerVertical="true"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_copy"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="真人娱乐LIVE"
+
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_copy"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="彩票投注LOTTERY"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_copy"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="电子游艺CANSIO"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rvBottom"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="@dimen/activity_horizontal_margin"
-        android:paddingBottom="@dimen/activity_horizontal_margin"/>
+        android:layout_height="140dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" />
 
     <TextView
         android:id="@+id/tvEmptyListBottom"
         android:layout_width="match_parent"
-        android:layout_height="110dp"
+        android:layout_height="150dp"
+        android:background="#FFF"
         android:gravity="center"
         android:textSize="20sp"
-        android:text="Bottom List is Empty!"
-        android:background="#cccccc"
         android:visibility="gone" />
 
 </LinearLayout>

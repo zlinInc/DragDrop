@@ -1,0 +1,4 @@
+# DragDrop
+演示原型从两个recyclerview相互拖动使用了ItemTouchHelper和View.OnDragListener
+修改toprecy不能往下拖动  
+增加使用itemTouchHelper 顶部不能拖出框 增加tab切换bottomRecy
